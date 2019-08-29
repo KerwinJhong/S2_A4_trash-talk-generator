@@ -35,7 +35,7 @@ $ npm install
 $ npm run dev
 ```
 
-2. 輸入網址並呈現我的餐廳清單介面
+2. 輸入網址
 
 ```
 http://localhost:3000
