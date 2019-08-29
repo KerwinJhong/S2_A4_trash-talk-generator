@@ -1,0 +1,31 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col text-center">
+      <form method="POST" action="/">
+        <button type="submit" class="btn btn-danger">Say some shit to</button>
+        <select class="select" name="people">
+          <option>Select your donkey</option>
+          <option value="engineer" {{outpute.engineer}}>工程師</option>
+          <option value="designer" {{outpute.designer}}>設計師</option>
+          <option value="entrepreneur" {{outpute.entrepreneur}}>創業家</option>
+        </select>
+      </form>
+      <img class="boss mt-3" src="https://media.makeameme.org/created/i-am-your-zk2ihl.jpg" alt="">
+    </div>
+    <div class="col text-center">
+      {{#if outpute.career}}
+      <div class="alert alert-info" role="alert">
+        <span class="mr-2">Some shit has come out from your boss's mouth:<br>
+          身為一個{{outpute.career}}，{{outpute.todo}}，{{outpute.text}}吧!
+        </span>
+      </div>
+      <div><img class="you" src="{{outpute.img}}" alt=""></div>
+      {{else}}
+      <div class="alert alert-info" role="alert">
+        <h1 class="mr-2">Select your donkey</h1>
+      </div>
+      <div><img class="you" src="http://47.52.36.53/z/stock-photo-423468940.jpg" alt=""></div>
+      {{/if}}
+    </div>
+  </div>
+</div>
