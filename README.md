@@ -41,14 +41,6 @@ $ npm run dev
 http://localhost:3000
 ```
 
-## Format the code after editing
-
-We have ignore some js in our .eslintignore, please don't remove it for preformance issue. Copy and path the script in your terminal to Run
-
-```bash
-npm run lint
-```
-
 ## 作者
 
 [Kerwin Jhong](https://github.com/KerwinJhong)
