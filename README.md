@@ -15,7 +15,7 @@
 
 ## 安裝步驟
 
-1. 下載 restaurant_list 資料夾，並輸入以下指令下載
+1. 輸入以下指令下載
 
 ```
 $ git clone https://github.com/KerwinJhong/S2_A4_trash-talk-generator.git
