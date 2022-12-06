@@ -21,7 +21,7 @@
     "homepage": "https://github.com/KerwinJhong/S2_A4_trash-talk-generator#readme",
     "devDependencies": {
         "babel-eslint": "^9.0.0",
-        "body-parser": "^1.19.0",
+        "body-parser": "^1.20.1",
         "eslint": "^5.14.1",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-config-prettier": "^4.1.0",
@@ -32,7 +32,7 @@
         "eslint-plugin-prettier": "^3.0.1",
         "eslint-plugin-react": "^7.12.4",
         "eslint-plugin-react-hooks": "^1.3.0",
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "express-handlebars": "^3.1.0",
         "prettier": "^1.16.4"
     }
